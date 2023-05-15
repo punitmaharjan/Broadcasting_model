@@ -1,0 +1,49 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background: url(../img/wpp.jpg);
+	background-size: cover;
+}
+.cont{
+	margin:130px 80px;
+	margin-bottom: 25px;
+	display:flex;
+	flex-direction: row-reverse;
+}
+.cont .content{
+	width:60%;
+	background-image:linear-gradient(
+		45deg,
+		rgba(0,0,0,0.9),
+		rgba(55,55,55,0.6),
+		rgba(55,55,55,0.9),
+		rgba(0,0,0,0.9)
+		);
+	color:#ccc;
+	padding:20px 20px;
+	border-radius: 15px;
+	margin:5px;
+	font-family: 'Poppins',sans-serif;
+
+}
+.content h3{
+	font-size: 1.4em;
+}
+.content p,.content h3{
+	text-align: justify;
+}
+.cont img{
+	height:400px;
+	width:30%;
+	border-radius: 15px;
+	margin:5px;
+	position:fixed;
+	left:90px;
+	top:130px;
+}
+.cont ul{
+	margin-left: 20px;
+	text-align: justify;
+}

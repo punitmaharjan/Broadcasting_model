@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background-color: bisque;
+    /* margin: 8%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 50vh; */
+}
+.login-form{
+    background-color: white;
+    box-shadow: 0px 5px 10px black;
+    width: 400px;
+    /* border-radius: 10px; */
+   
+}
+.login-form h2{
+    background-color: rgba(0, 0, 255, 0.649);
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+div.login-form form{
+    padding: 30px 30px;
+}
+div.login-form form div.input-field{
+    display: flex;
+    margin: 10px 0;
+    
+}
+div.login-form form div.input-field i{
+    background-color:f2f4f6;
+    color: darkslategray;
+    padding: 10px 8px;
+    margin: 4px;
+}
+.input-field input{
+    border: none;
+    background-color: #f2f4f6;
+    width: 100%;
+    padding: 10px;
+    padding-left: 15px;
+}
+.login-form button{
+    background-color: #5bd1d7 ;
+    border: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    margin: 10px 0px;
+    transition: backgroud-color 0.4s;
+}
+.login-form button:hover{
+    background-color: #41b6e6;
+}
+/* .extra{
+    display: flex;
+  justify-content: space-between;
+} */
+.extra a{
+    color: gray;
+}
+/* .extra{
+    display: flex;
+    : space-between;
+} */

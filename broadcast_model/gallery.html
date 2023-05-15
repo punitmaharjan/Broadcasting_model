@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gallery | Broadcasting Model</title>
+	<link rel="stylesheet" type="text/css" href="css/gallery.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<style type="text/css">
+		.con a{
+			color:#000;
+		}
+		.con a:hover{
+			color:#333;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">broadcast</a>
+		<ul>
+			<li><a href="index.php">home</a></li>
+			<li><a href="about.html">about</a></li>
+			<li class="dropdown"><a href="#" class="dropbtn">resource</a>
+					<ul class="dropdown-content">
+						<li class="first"><a href="policy.html">Policy</a></li>
+						<li><a href="acts.html">Acts & Regulations</a></li>
+						<li class="last"><a href="directives.html">Directive & Guideline</a></li>
+					</ul>
+			</li>
+			<li><a href="gallery.html" class="active">gallery</a></li>
+			<li><a href="contact.html">contact</a></li>
+		</ul>
+	</header>
+	<div class="gallery">
+		<div class="card">
+			<div class="imgx">
+				<img src="img/covid.jpg">
+			</div>
+				<div class="content">
+				<h3>Nepal witnesses COVID-19 uptick with 220 new cases</h3>
+				<p>December 20, 2021</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgx">
+				<img src="img/flood.jpg">
+			</div>
+				<div class="content">
+				<h3>The floods and landslides triggered by the unseasonal rainfall.</h3>
+			</div>	
+		</div>
+		<div class="card">
+			<div class="imgx">
+				<img src="img/oil.jpg">
+			</div>
+				<div class="content">
+				<h3>Nepal Oil Corporation (NOC)</h3>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgx">
+				<img src="img/balen.jpg">
+			</div>
+				<div class="content">
+				<h3>Balendra Shah-Mayor of Kathmandu Metropolitan  City(2079)</h3>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgx">
+				<img src="img/keshab.jpg" style="width:250px;">
+			</div>
+				<div class="content">
+				<h3>Keshav Sthapit—CPN-UML</h3>
+				<p>Kathmandu Mayor Candidate</p>
+			</div>	
+		</div>
+		<div class="card">
+			<div class="imgx">
+				<img src="img/srijana.jpg">
+			</div>
+				<div class="content">
+				<h3>Srijana Singh—Nepali Congress</h3>
+				<p>Kathmandu Mayor Candidate</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgx">
+				<img src="img/samik.jpg">
+			</div>
+				<div class="content">
+				<h3>Samikchya Baskota–Bibeksheel Sajha Party</h3>
+				<p>Kathmandu Mayor Candidate</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgx">
+				<img src="img/madan.jpg">
+			</div>
+				<div class="content">
+				<h3>Madan Das Shrestha-Rastriya Prajatantra Party</h3>
+				<p>Kathmandu Mayor Candidate</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgx">
+				<img src="img/sher.jpg">
+			</div>
+				<div class="content">
+				<h3>Sher Bahadur Deuba-Nepal's Prime Minister</h3>
+				<p>Since 2021</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgx">
+				<img src="img/bidhya.jpg">
+			</div>
+				<div class="content">
+				<h3>President Bidhya Devi Bhandari</h3>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgx">
+				<img src="img/nanda.jpg">
+			</div>
+				<div class="content">
+				<h3>Vice President Nanda Bahadur Pun</h3>
+			</div>
+		</div>
+		
+	</div>
+	<footer style="background:#aaa;color:#000;bottom:-720px;margin-top: 100px;">
+	<p>Copyright 2022, All Rights Reserved</p>
+	<p class="con">
+		<span class="jj">Contact</span>
+		<a href="tel:9808894725"><i class="fa fa-phone" aria-hidden="true"></i>
+		<a href="https://www.facebook.com/sujan.lama.7330" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+		<a href="viber://chat?number=9808894725"><i class="fab fa-viber"></i></a>
+		<a href="mailto:punitsaur12@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+	</p>
+	</footer>
+
+	<script type="text/javascript">
+		window.addEventListener("scroll",function(){
+			var header=document.querySelector("header");
+			header.classList.toggle("sticky",window.scrollY>0);
+		})
+	</script>
+</body>
+</html>
